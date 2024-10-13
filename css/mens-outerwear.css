@@ -1,0 +1,217 @@
+.container {
+    height: 100vh;
+}
+
+.outerwear-image {
+    display: none;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.cart-icon img {
+    height: 1.55rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 2.5rem;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.type-of-category {
+    display: none;
+}
+
+#ladies-outerwear-id, #mens-t-shirt-id, #ladies-t-shirt-id {
+    display: none;
+}
+
+#mens-outerwear-id {
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.number-of-items {
+    display: flex;
+    justify-content: center;
+}
+
+.number-of-items p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.outerwear-collections {
+    margin: 0 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eachcollection {
+    width: 44%;
+    text-align: center;
+    margin: 0 3%;
+}
+
+.eachcollection img {
+    max-width: 100%;
+    margin: 2vh 0;
+}
+
+.eachcollection a {
+    text-decoration: none;
+    color: black;
+}
+
+.outwear-name {
+    font-size: 0.871em;
+    font-weight: 600;
+    font-family: 'Roboto Flex', sans-serif;
+    color: black;
+    height: auto;
+    line-height: 1.375rem;
+
+}
+
+.amount {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 100;
+}
+
+footer {
+    margin-top: 4.37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(136, 133, 133);
+    font-size: 0.87rem;
+}
+
+.demo-only-button {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 0.812rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.87rem;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:768px) {
+    header {
+        height: 5rem;
+    }
+
+    .outerwear-image {
+        display: block;
+        max-width: 90rem;
+        margin: 1.5rem auto;
+
+    }
+
+    .outerwear-image img {
+
+        object-fit: cover;
+        width: 100%;
+        height: 20rem;
+    }
+
+    .type-of-category {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        gap: 2.5rem;
+    }
+
+    .type-of-category a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+
+    #ladies-outerwearid, #mens-t-shirtid, #ladies-t-shirtid {
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    #ladies-outerwear-id, #mens-t-shirt-id, #ladies-t-shirt-id {
+        display: block;
+    }
+
+    .outerwear-collections {
+        max-width: 90rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .eachcollection {
+        width: 23%;
+        text-align: center;
+        margin: 0 5%;
+
+    }
+
+    .eachcollection img {
+
+        margin-top: 2vw;
+
+        max-width: 100%;
+
+    }
+
+    .outwear-name {
+        margin-top: 0.5vw;
+        font-size: 0.78rem;
+    }
+
+    #mens-outerwear-id {
+
+        border-bottom: 2px solid black;
+        padding-bottom: 5px;
+    }
+}

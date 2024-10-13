@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+}
+
+/*  */
+header {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+/*  */
+.category {
+    display: none;
+}
+
+/**/
+/* .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.hidden a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden ul {
+    list-style-type: none;
+} */
+
+/**/
+.title a {
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.312rem;
+    color: black;
+}
+
+.main-section {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.mens-outerwear img {
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.image-heading {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: flex;
+    height: 3.125rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.18rem;
+}
+
+.shop-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    margin-top: 0.625rem;
+}
+
+.shop-button a {
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    border: 0.125rem solid black;
+    font-size: 0.88rem;
+    padding: 0.625rem 2.5rem;
+
+}
+
+.ladies-outerwear img {
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+}
+
+.t-shirts {
+    display: flex;
+}
+
+.mens-t-shirts {
+    width: 50%;
+}
+
+.mens-t-shirts img {
+    object-fit: cover;
+    width: 100%;
+    height: 15.2rem;
+}
+
+.t-shirt-image-heading {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.t-shirt-shop-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.875rem;
+}
+
+.t-shirt-shop-button a {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 0.88rem;
+    border: 0.125rem solid black;
+    padding: 0.6rem 1.25rem;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    margin-top: 3.437rem;
+}
+
+.ladies-t-shirts {
+    width: 50%;
+}
+
+.ladies-t-shirts img {
+    object-fit: cover;
+    width: 100%;
+    height: 15.2rem;
+}
+
+footer {
+    margin-top: 4.37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-content a {
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(136, 133, 133);
+    font-size: 0.87rem;
+}
+
+.demo-only-button {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 0.812rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.87rem;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:768px) {
+    :root {
+        font-size: 16px;
+    }
+
+    .sidebar {
+        visibility: hidden;
+    }
+
+    .main-body {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .main-section {
+        max-width: 90rem;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    .category {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1.56rem;
+        gap: 2.5rem;
+    }
+
+    .category a {
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 0.87rem;
+        font-weight: 300;
+        text-decoration: none;
+        color: black;
+    }
+
+    .mens-outerwear {
+        height: 25rem;
+    }
+
+    .mens-outerwear img {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .shop-button {
+        margin-top: 1rem;
+    }
+
+    .ladies-outerwear {
+        margin-top: 3rem;
+        height: 25rem;
+    }
+
+    .ladies-outerwear img {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .image-heading {
+        margin-top: 1rem;
+    }
+
+    .mens-t-shirts, .ladies-t-shirts {
+        margin-top: 2.7rem;
+        height: 25rem;
+    }
+
+    .mens-t-shirts img, .ladies-t-shirts img {
+        height: 20rem;
+    }
+
+    .t-shirt-shop-button {
+        padding: 2.5rem;
+    }
+
+    .t-shirt-shop-button a {
+        margin-top: 1rem;
+        padding: 0.625rem 2.5rem;
+
+    }
+
+    .t-shirt-image-heading {
+        margin-top: 1.7rem;
+    }
+}
